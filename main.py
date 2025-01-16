@@ -145,7 +145,7 @@ class MainWindow(QtWidgets.QMainWindow):
         layout.addLayout(button_layout)
 
         dialog.setLayout(layout)
-        dialog.exec()
+        dialog.show()
 
 
 # Create a parent window for Houdini's main window

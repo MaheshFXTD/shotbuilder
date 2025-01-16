@@ -143,7 +143,7 @@ class MainWindow(QtWidgets.QMainWindow):
         layout.addLayout(button_layout)
 
         dialog.setLayout(layout)
-        dialog.exec()
+        dialog.show()
 
 
 # if __name__ == "__main__":
